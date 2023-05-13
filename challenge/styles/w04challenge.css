@@ -1,0 +1,62 @@
+body{
+    background-color: #ffa6cb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+nav {
+    font-size: 2em;
+    text-align: center;
+    margin: 40px auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+}
+
+h3 {
+    color: white;
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+h4 {
+    color: white;
+    width: 43%;
+    margin: auto;
+    text-align: center;
+    font-size: smaller;
+}
+
+p {
+    width: 43%;
+    margin: 30px auto;
+}
+
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: white;
+    width: 25%;
+    text-align: center;
+}
+
+.reference {
+    font-size: smaller;
+    text-align: center;
+    width: 28%;
+}
