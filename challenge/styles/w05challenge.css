@@ -1,0 +1,34 @@
+body {
+    padding: 0px;
+    margin: 0px auto;
+    border: 0px;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#title-img {
+    /*box-sizing: border-box;*/
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: darkgray;
+}
+
+
+section {
+    display: inline-block;
+    margin: 40px auto;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid #2e2d2c;
+    border-radius: 50%;
+
+}
