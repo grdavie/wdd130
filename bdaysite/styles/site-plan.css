@@ -69,6 +69,15 @@ p {
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: .2em;
+}
+
 .colors {
   width: 100%;
   min-width: 350px;
