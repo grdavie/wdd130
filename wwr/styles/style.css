@@ -242,6 +242,60 @@ h4 {
    
 }
 
+#faq_hero {
+    max-width: 1000px;
+    padding: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+#faq_hero h1 {
+    font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+
+}
+
+#faq_hero h2 {
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+#faq_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 950px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: auto;
+
+}
+
+.faq_question span {
+    font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
+}
+
+.faq_question label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus {
+    font-size: 2.5em;
+}
+
+.faq_content {
+    font-size: .8em;
+    padding: 10px;
+}
+
+.faq_content p, ul {
+    line-height: 1.5em;
+    
+}s
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
