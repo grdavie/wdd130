@@ -324,7 +324,7 @@ input[type="radio"]{
 .accordion .faq_content{
     color: #4e6063;
     font-size: .8em;
-    line-height: 1.2em;
+    line-height: 1.8em;
     padding: 5px 30px 15px 30px;
     max-height: 0;
     overflow: hidden;
@@ -349,7 +349,7 @@ input[type="radio"]{
 
 .faq_content li {
     font-size: .9em;
-    line-height: 1.2em;
+    line-height: 1.8em;
     list-style-type: square;
     margin-bottom: 5px;
 }
@@ -395,12 +395,13 @@ input[type="radio"]{
     font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
     color: #4a2c1a;
     padding: 20px;
+    font-size: 1.8em;
 
 }
 
 .additional-faqs p {
-    font-size: .8em;
-    line-height: 1.5em;
+    font-size: .9em;
+    line-height: 1.8em;
     padding-bottom: 20px;
 
 }
