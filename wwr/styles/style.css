@@ -309,7 +309,7 @@ h4 {
 
 }
 
-label::after {
+.faqs-label::after {
     content: '+';
     margin-right: 10px;
     margin-left: 10px;
@@ -332,12 +332,12 @@ input[type="radio"]{
 
 }
 
-.accordion input[type="radio"]:checked + label + .faq_content {
+.accordion input[type="radio"]:checked + .faqs-label + .faq_content {
     max-height: 250vh;
     
 }
 
-.accordion input[type="radio"]:checked + label::after{
+.accordion input[type="radio"]:checked + .faqs-label::after{
    content: '-';
     
 }
