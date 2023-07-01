@@ -115,7 +115,7 @@ nav a:hover {
 
 .background {
     height: 725px;
-    background-color: #e4edde;
+    background-color: #eef9e7;
     grid-column: 1/9;
     grid-row: 1/4;
     z-index: -1;
@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 #intro-msg {
-    grid-column: 3/7;
+    grid-column: 4/6;
     z-index: 1;
     grid-row: 2/3;
     justify-content: center;
@@ -132,20 +132,58 @@ nav a:hover {
     text-align: center;
 }
 
+#intro-msg h2, #party-msg h2 {
+    font-family:"Nanum Pen Script", Cookie, cursive;
+    font-size: 3em;
+    color: #ECA150;
+    padding: 10px;
+    margin-top: -30px;
+}
+
+#intro-msg h4, #party-msg h4 {
+    font-size: 1em;
+    color: #88AAB6;
+    padding-bottom: 30px;
+}
+
+.rsvp-button, .party-button {
+    background-color: #AEC542;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+}
+
+.rsvp-button:hover, .party-button:hover {
+    background-color: #82AB61;
+    color: white;
+}
+
 #intro-party {
     grid-row: 4/7;
-    grid-column: 1/9;
+    grid-column: 3/7;
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    gap: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .thumbs-up {
-    grid-column: 5/8;
-    grid-row: 5/6;
-    width: 300px;
+    max-width: 450px;
+    min-width: 200px;
 }
 
 #party-msg {
-    grid-column: 2/4;
-    grid-row: 5/6;
+  text-align: center;
 }
 
 .background-2 {
