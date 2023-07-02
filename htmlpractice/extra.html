@@ -1,0 +1,151 @@
+<section id="slideshow">
+    <div class="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">   
+        <input type="radio" name="slider" id="slide3">   
+        <input type="radio" name="slider" id="slide4">   
+        <input type="radio" name="slider" id="slide5">   
+        <input type="radio" name="slider" id="slide6">       
+        <div id="slides">
+            <div id="overflow">
+                <div class="inner">
+                    <div class="slide slide_1">
+                        <div class="slide-content">
+                            <img class="fact-img" src="images/roarke-trex.jpg" alt ="Roarke trex">
+                            <p>His favorite dinosaur is T-rex! He has a a collection of T-rex toys he calls T-rex family.</p>
+                        </div>
+                    </div>
+                    <div class="slide slide_2">
+                        <div class="slide-content">
+                            <img class="fact-img" src="images/roarke-spidey.jpg" alt ="Roarke spiderman">
+                            <p>Other than dinosaurs, he loves Marvel Superheroes! He learned their names before his ABCs.</p>
+                        </div>
+                    </div>
+                    <div class="slide slide_3">
+                        <div class="slide-content">
+                            <img class="fact-img" src="images/roarke-seaweed.jpg" alt ="Roarke seaweed">
+                            <p>His favourite food is seaweed-wrapped rice with ketchup!</p>
+                        </div>
+                    </div>
+                    <div class="slide slide_4">
+                        <div class="slide-content">
+                            <img class="fact-img" src="images/roarke-wild-and-free.jpg" alt ="Roarke black shirt">
+                            <p>He wants a pet cow. Not a baby cow, but a big cow he can ride!</p>
+                        </div>
+                    </div>
+                    <div class="slide slide_5">
+                        <div class="slide-content">
+                            <img class="fact-img" src="images/roarke-cap.jpg" alt ="Roarke cap">
+                            <p>He wakes up at 5:30 am every day and makes sure the whole household knows. Who needs an alarm clock when you have Roarke?</p>
+                        </div>
+                    </div>
+                    <div class="slide slide_6">
+                        <div class="slide-content">
+                            <img class="fact-img" src="images/roarke-guitar.jpg" alt ="Roarke guitar">
+                            <p>He loves music and will try any instrument. He has previously tried to climb up a stage to take a performer's guitar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bullets">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+            <label for="slide6"></label>
+        </div>
+    </div>    
+
+
+
+    #slider {
+        margin: 0 auto;
+        width: 1000px;
+        max-width: 100%;
+        text-align: center;
+     }
+    
+     input[type=radio] {
+        display: none;
+        visibility: hidden;
+     }
+     #slider label {
+        cursor:pointer;
+        text-decoration: none;
+     }
+     #slides {
+        padding: 10px;
+        position: relative;
+        z-index: 1;
+     }
+     #overflow {
+        width: 100%;
+        overflow: hidden;
+     }
+     #slide1:checked ~ #slides .inner {
+        margin-left: 0;
+     }
+     #slide2:checked ~ #slides .inner {
+        margin-left: -100%;
+     }
+     #slide3:checked ~ #slides .inner {
+        margin-left: -200%;
+     }
+     #slide4:checked ~ #slides .inner {
+        margin-left: -300%;
+     }
+     #slide5:checked ~ #slides .inner {
+        margin-left: -400%;
+     }
+     #slide6:checked ~ #slides .inner {
+        margin-left: -500%;
+     }
+    
+     .slide-content img {
+        width: 400px;
+        height: 400px;
+     }
+     
+    
+     #slides .inner {
+        transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+        width: 600%;
+        line-height: 0;
+        height: 300px;
+     }
+     #slides .slide {
+        width: 25%;
+        float:left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: #fff;
+     }
+
+
+     #bullets {
+        margin: 150px 0 0;
+        text-align: center;
+        margin-bottom: 300px;
+        justify-content: center;
+     }
+     #bullets label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius:100%;
+        background: #ccc;
+        margin: 0 10px;
+     }
+     #slide1:checked ~ #bullets label:nth-child(1),
+     #slide2:checked ~ #bullets label:nth-child(2),
+     #slide3:checked ~ #bullets label:nth-child(3),
+     #slide4:checked ~ #bullets label:nth-child(4),
+     #slide5:checked ~ #bullets label:nth-child(5),
+     #slide6:checked ~ #bullets label:nth-child(6){
+        background: #444;
+     }
+    
