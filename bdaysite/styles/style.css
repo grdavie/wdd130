@@ -197,7 +197,7 @@ nav a:hover {
 
 #slideshow {
     grid-row: 8/9;
-    grid-column: 3/7;
+    grid-column: 1/9;
     z-index: 90;
     display: flex;
     margin-top: -200px;
