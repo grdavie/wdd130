@@ -11,6 +11,9 @@ Fonts are separated by a | */
   --secondary-color: #ECA150 ;
   --accent1-color: #88AAB6;
   --accent2-color: #82AB61;
+  --accent3-color: #747978;
+  --accent4-color: #eef9e7;
+  --accent5-color: #e4edde;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Nanum Pen Script", Cookie, cursive;
@@ -102,6 +105,18 @@ ul {
 }
 .accent2{
   background-color: var(--accent2-color);
+}
+
+.accent3{
+  background-color: var(--accent3-color);
+}
+
+.accent4{
+  background-color: var(--accent4-color);
+}
+
+.accent5{
+  background-color: var(--accent5-color);
 }
 
 p.colored {
