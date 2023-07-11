@@ -64,6 +64,10 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+#hero:hover .home-title {
+    animation: bounce 1.8s infinite;
+}
+
 #rsvp-hero:hover #rsvp-img {
     opacity: 70%;
 }
